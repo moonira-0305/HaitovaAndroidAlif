@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#759581A8"
+    android:gravity="top"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/myLabel1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:text="Салом, номи Шумо чист ?"
+        android:textColor="@android:color/black"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/myEdit1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="name?"
+        android:imeOptions="actionDone"
+        android:inputType="text"
+        android:maxLines="1" />
+
+    <TextView
+        android:id="@+id/myLabel2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:text="Соли таваллуди Шумо?"
+        android:textColor="@android:color/black"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/myEdit2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="year?"
+        android:imeOptions="actionDone"
+        android:inputType="text"
+        android:maxLines="1" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="223dp"
+        android:layout_height="wrap_content"
+        android:background="#A379AA"
+        android:gravity="center"
+        android:insetTop="10dp"
+        android:onClick="onClickMethod"
+        android:text="Фиристодан"
+        app:strokeColor="#3B4FBF" />
+    <TextView
+        android:id="@+id/myLabel3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:text=" "
+        android:textColor="@android:color/black"
+        android:textSize="22sp" />
+
+
+</LinearLayout>
