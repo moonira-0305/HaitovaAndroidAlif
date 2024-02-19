@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
                 var age = 2024 - year
                 label3.text = "$name аз шиносоӣ шодам \n $name, шумо $age солаед"
             } catch (e: Exception) {
-                label2.text = "Сол дохил кунед"
+                label2.text = "Сол дохил кунед!"
             }
 
         }
