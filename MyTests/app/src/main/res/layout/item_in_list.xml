@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:paddingBottom="20dp"
+    android:background="#DFAA5C"
+    android:layout_marginBottom="20dp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/item_list_image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="10dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/rasm1" />
+
+    <TextView
+        android:id="@+id/item_list_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="10dp"
+        android:textSize="30sp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/item_list_price"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:gravity="end"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/item_list_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+</LinearLayout>
