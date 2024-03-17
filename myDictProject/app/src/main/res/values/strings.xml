@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">myDictProject</string>
+    <string name="createAkkaunt">Создайте аккаунт!</string>
+    <string name="sign_in_toAkkaunt">Войдите в аккаунт!</string>
+    <string name="sign_in">Войти</string>
+    <string name="create">Создать</string>
+    <string name="avtorize">Авторизоваться</string>
+    <string name="sign_up">Зарегистрироваться</string>
+    <string name="NeVsePolyaZapolneni">Не все поля заполнены</string>
+    <string name="added">добавлен</string>
+    <string name="avtorized">авторизован</string>
+    <string name="words">Слова</string>
+    <string name="back">Назад</string>
+</resources>
