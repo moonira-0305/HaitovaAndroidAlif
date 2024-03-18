@@ -1,15 +1,15 @@
 package com.example.mydictproject
 
 import android.content.Intent
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
-import androidx.appcompat.app.AppCompatActivity
+import com.example.mydictproject.R
 import com.example.mytests.DbHelper
-
-
+import com.example.testalif.User
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -45,4 +45,5 @@ class MainActivity : AppCompatActivity() {
             }
         }
     }
+
 }

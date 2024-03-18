@@ -7,6 +7,7 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
+import com.example.mydictproject.R
 import com.example.mytests.DbHelper
 
 class AuthActivity : AppCompatActivity() {
@@ -37,7 +38,7 @@ class AuthActivity : AppCompatActivity() {
                     Toast.makeText(this,"$login @string/avtorized", Toast.LENGTH_LONG).show()
                     userLogin.text.clear()
                     userPass.text.clear()
-                    val intent=Intent(this,ItemsActivity::class.java)
+                    val intent=Intent(this,ItemActivity::class.java)
                     startActivity(intent)
                 }
                 else{

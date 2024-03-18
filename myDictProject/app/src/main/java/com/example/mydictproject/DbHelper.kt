@@ -4,7 +4,8 @@ import android.content.ContentValues
 import android.content.Context
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
-import com.example.mydictproject.User
+import com.example.testalif.User
+
 
 class DbHelper(val context: Context, val factory: SQLiteDatabase.CursorFactory?):
     SQLiteOpenHelper(context,"DbTest",factory,1)
