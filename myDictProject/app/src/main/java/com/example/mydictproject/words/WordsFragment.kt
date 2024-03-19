@@ -1,4 +1,4 @@
-package com.example.testalif.chats
+package com.example.mydictproject.words
 
 import android.os.Bundle
 import android.text.Editable
