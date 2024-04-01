@@ -19,8 +19,8 @@
         <item name="android:textColor">@color/red</item>
     </style>
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <item name="colorPrimary">@color/design_default_color_secondary</item>
-        <item name="colorPrimaryDark">@color/design_default_color_secondary_variant</item>
+        <item name="colorPrimary">@color/green_1</item>
+        <item name="colorPrimaryDark">@color/green_1</item>
         <item name="colorAccent">@color/design_default_color_secondary_variant</item>
         <item name="android:alertDialogTheme">@style/AlertDialogCustom</item>
     </style>

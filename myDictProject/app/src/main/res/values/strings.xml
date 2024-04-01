@@ -12,4 +12,7 @@
     <string name="words">Калимаҳо</string>
     <string name="back">Ба қафо</string>
     <string name="splash_text">Луғати вожаҳои серитеъмоли забонҳои тоҷикӣ, русӣ, аанглисӣ</string>
+    <string name="dictionary">Луғат</string>
+    <string name="test">Викторина</string>
+    <string name="info">Маълумот</string>
 </resources>
