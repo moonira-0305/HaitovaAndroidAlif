@@ -1,5 +1,9 @@
 package com.alif.practicefragmentandrecyclerview.chats.adapter
 
+
+import android.app.AlertDialog
+import android.app.PendingIntent.getActivity
+import android.content.DialogInterface
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -22,10 +26,10 @@ class WordsAdapter : RecyclerView.Adapter<WordsAdapter.ViewHolder>() {
 
     class ViewHolder(v: View) : RecyclerView.ViewHolder(v) {
 
-        private val tajTextView = itemView.findViewById<TextView>(R.id.tajTextView)
-        private val rusTextView = itemView.findViewById<TextView>(R.id.rusTextView)
-        private val engTextView = itemView.findViewById<TextView>(R.id.engTextView)
-        val btn:Button=itemView.findViewById<Button>(R.id.item_list_button)
+        private val tajTextView = itemView.findViewById<TextView>(com.example.mydictproject.R.id.tajTextView)
+        private val rusTextView = itemView.findViewById<TextView>(com.example.mydictproject.R.id.rusTextView)
+        private val engTextView = itemView.findViewById<TextView>(com.example.mydictproject.R.id.engTextView)
+
         fun bind(item: WordModel) {
             tajTextView.text = item.taj
             rusTextView.text = item.rus
@@ -47,10 +51,10 @@ class WordsAdapter : RecyclerView.Adapter<WordsAdapter.ViewHolder>() {
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         holder.bind(items[position])
-        holder.btn.setOnClickListener{
+    }
+
 
     }
 
 
 
-}}

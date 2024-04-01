@@ -5,85 +5,45 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/light_black"
+    android:background="@color/white"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="160dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="170dp"
-        android:fontFamily="cursive"
-        android:gravity="center"
         android:text="@string/createAkkaunt"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        android:textColor="@color/white"
-        android:textSize="25dp"
-        android:textStyle="bold"
-        tools:ignore="TextSizeCheck" />
+        tools:ignore="TextSizeCheck"
+        style="@style/LoginTitleStyle" />
 
     <EditText
         android:id="@+id/user_login"
-        android:layout_width="220dp"
-        android:layout_height="50dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="20dp"
+        style="@style/LoginEditStyle"
         android:ems="10"
         android:hint="login"
-        android:textColorHint="@color/white"
-        android:inputType="text"
-        android:textColor="#fdfdfd" />
+         />
 
     <EditText
         android:id="@+id/user_email"
-        android:layout_width="220dp"
-        android:layout_height="50dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="20dp"
-        android:ems="10"
         android:hint="email"
-        android:textColorHint="@color/white"
-        android:inputType="textEmailAddress"
-        android:textColor="@color/white" />
+        style="@style/LoginEditStyle" />
 
     <EditText
         android:id="@+id/user_pass"
-        android:layout_width="220dp"
-        android:layout_height="50dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="20dp"
+
         android:ems="10"
         android:hint="password"
-        android:textColorHint="@color/white"
+        style="@style/LoginEditStyle"
         android:inputType="textPassword"
-        android:textColor="@color/white" />
+        />
 
     <Button
         android:id="@+id/button_reg"
-        android:layout_width="220dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="38dp"
-        android:backgroundTint="@color/myBlue"
+        style="@style/LoginButtonStyle"
         android:text="@string/create"
-        android:textColor="@color/black"
-        android:textStyle="bold"/>
+        />
 
     <TextView
         android:id="@+id/link_to_auth"
-        android:layout_width="160dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="60dp"
-        android:clickable="true"
-        android:fontFamily="sans-serif-condensed-light"
-        android:gravity="center"
-        android:minHeight="48dp"
         android:text="@string/avtorize"
-        android:textColor="@color/light_blue"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:focusable="true" />
+        style="@style/TextAvtorizeStyle" />
 
 </LinearLayout>
