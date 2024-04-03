@@ -22,10 +22,7 @@ class MainActivity : AppCompatActivity() {
 
         val  link_to_auth: TextView =findViewById(R.id.link_to_auth)
 
-        link_to_auth.setOnClickListener(){
-            val intent= Intent(this,AuthActivity::class.java)
-            startActivity(intent)
-        }
+
         button.setOnClickListener {
             val login = userLogin.text.toString().trim()
             val email = userEmail.text.toString().trim()
@@ -43,6 +40,9 @@ class MainActivity : AppCompatActivity() {
                 userEmail.text.clear()
                 userPass.text.clear()
             }
+
+            val intent= Intent(this,AuthActivity::class.java)
+            startActivity(intent)
         }
     }
 }
